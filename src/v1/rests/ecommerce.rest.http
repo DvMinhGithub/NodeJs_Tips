@@ -1,0 +1,42 @@
+// put product
+PUT http://localhost:8080/v1/ecommerce/product
+Content-Type: application/json
+
+{
+	"product": {
+		"productId": 1001,
+		"code": "P-1001",
+		"name": "Book cr7",
+		"brand": "Amazon",
+		"description": "Description about CR7",
+		"specs": [{
+			"k": "author",
+			"v": "cr7"
+		}, {
+			"k": "pages",
+			"v": 300
+		}]
+	}
+}
+
+### put inventory
+PUT http://localhost:8080/v1/ecommerce/inventory
+Content-Type: application/json
+
+{
+	"inventory": {
+		"productId": 1001,
+        "quanlity": 100,
+        "reservations": []
+	}
+}
+
+### add to cart
+PUT http://localhost:8080/v1/ecommerce/addToCart
+Content-Type: application/json
+
+{
+		"productId": 1001,
+        "quanlity": 2,
+        "userId": 1
+}

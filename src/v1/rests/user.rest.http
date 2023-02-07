@@ -1,0 +1,29 @@
+
+
+### resgister user
+POST http://localhost:8080/v1/users/register
+Content-Type: application/json
+
+{ 
+    "email": "cr2@gmail.com"
+}
+
+### verify otp
+POST http://localhost:8080/v1/users/verify
+Content-Type: application/json
+
+{ 
+    "email": "cr2@gmail.com",
+    "otp" : "277337"
+}
+
+### createUser
+POST http://localhost:8080/v1/createUser
+Content-Type: application/json
+
+{ 
+    "email": "cr1@gmail.com",
+    "username": "cr1",
+    "userId": 1
+}
+

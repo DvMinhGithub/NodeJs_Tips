@@ -1,0 +1,123 @@
+24-01-2023	28:29:08------Not Found
+24-01-2023	58:31:08 ------/v1/users/a --- GET --- 404 Not Found
+24-01-2023	05:35:08 --- c75a424a-19d2-476a-a9e5-4963308f19cc -- /v1/users/a -- GET -- 404 Not Found
+25-01-2023	21:54:16 --- eedabcd9-a3bc-4e03-8a61-898f775ec677 -- /v1/users -- POST -- Unexpected token } in JSON at position 28
+25-01-2023	28:28:18 --- a4ffc6d1-458c-4c19-951f-5fd0a59fb7d5 -- /v1/users -- POST -- number is not defined
+25-01-2023	33:30:18 --- 143b440e-192f-4b23-a272-6ea7e6239247 -- /v1/users -- POST -- Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+25-01-2023	54:52:18 --- 367d8dd2-6c2b-4414-9053-715a6687280d -- /v1/users -- POST -- Query was already executed: users.count({ email: 'crr@gmail.com' })
+25-01-2023	20:53:18 --- b2d46632-8c79-4486-8aec-34287fc6688d -- /v1/users -- POST -- Query was already executed: users.count({ email: 'crr@gmail.com' })
+25-01-2023	20:53:18 --- 728c0304-feba-4dc8-8fd4-136e913a6273 -- /v1/users -- POST -- Query was already executed: users.count({ email: 'crr@gmail.com' })
+25-01-2023	20:53:18 --- 399e5836-eb78-4b9c-bb64-4887c60852df -- /v1/users -- POST -- Query was already executed: users.count({ email: 'crr@gmail.com' })
+25-01-2023	13:07:19 --- 8d75b0ed-333d-4323-884f-d033c029ef29 -- /v1/newUser -- POST -- createUser is not defined
+25-01-2023	04:08:19 --- 1317c61e-006c-4c75-bc80-b00cb4238fcd -- /v1/newUser -- POST -- usernam is not defined
+25-01-2023	18:08:19 --- 31bc10ea-7288-4f5f-a864-77f458a80955 -- /v1/newUser -- POST -- username is not defined
+25-01-2023	48:08:19 --- 76b4c7d3-c428-47d7-965c-d89d570d0de3 -- /v1/newUser -- POST -- username is not defined
+25-01-2023	49:08:19 --- 9197ba01-9ff3-4c26-87ec-88f7bee405be -- /v1/newUser -- POST -- username is not defined
+25-01-2023	50:08:19 --- 86137dd3-1a80-4d4a-8563-485d09e22b10 -- /v1/newUser -- POST -- username is not defined
+25-01-2023	50:08:19 --- cdb30198-ad6a-4c28-9fdd-0ca8841f4eb4 -- /v1/newUser -- POST -- username is not defined
+25-01-2023	50:08:19 --- f0862128-ab41-4794-87f9-c86d195d182b -- /v1/newUser -- POST -- username is not defined
+25-01-2023	51:08:19 --- 1e8795c6-64ab-42ea-962a-e427b3c96a54 -- /v1/newUser -- POST -- username is not defined
+25-01-2023	51:08:19 --- 062b0001-9cd2-468c-999a-0331e3436fc6 -- /v1/newUser -- POST -- username is not defined
+25-01-2023	52:08:19 --- 7417e3fe-6df6-47e1-bb6b-3dcec50cbeb4 -- /v1/newUser -- POST -- username is not defined
+25-01-2023	52:08:19 --- bb7e869e-e809-4229-93e3-f016933763d4 -- /v1/newUser -- POST -- username is not defined
+25-01-2023	53:08:19 --- 05f38f22-56d6-4ac5-8620-e7cb88cdb785 -- /v1/newUser -- POST -- username is not defined
+25-01-2023	53:08:19 --- 4995b640-d427-48c9-977b-a371f87176d3 -- /v1/newUser -- POST -- username is not defined
+25-01-2023	53:08:19 --- d376a5c0-ce80-44f1-81b5-3ed33d088db3 -- /v1/newUser -- POST -- username is not defined
+25-01-2023	53:08:19 --- ca461d5a-151e-4cf2-8579-99de167981b4 -- /v1/newUser -- POST -- username is not defined
+25-01-2023	27:09:19 --- 9912bb41-8056-4403-bb7b-3a8a9461b719 -- /v1/newUser -- POST -- code is not defined
+25-01-2023	29:09:19 --- 8e66eee2-1813-4a2f-b53a-a68e2e85deb0 -- /v1/newUser -- POST -- code is not defined
+25-01-2023	29:09:19 --- 35dd29df-d1db-4330-8f08-d17ee9e7460a -- /v1/newUser -- POST -- code is not defined
+25-01-2023	29:09:19 --- ad934cb7-783a-4836-984c-d5c2a29db5fd -- /v1/newUser -- POST -- code is not defined
+25-01-2023	55:09:19 --- ce5b1ddb-612f-452c-a0b0-b6f785c38960 -- /v1/newUser -- POST -- code is not defined
+25-01-2023	56:09:19 --- 4095f92f-08dd-4680-86cc-5060dc84700f -- /v1/newUser -- POST -- code is not defined
+25-01-2023	25:10:19 --- e8c2508a-4b81-4d8a-9fc3-7c0592cf1deb -- /v1/newUser -- POST -- code is not defined
+27-01-2023	51:50:17 --- ca374c6d-33f5-4850-91ef-998e6817a010 -- /v1/regis -- POST -- insertOtp is not a function
+27-01-2023	55:50:17 --- a2acec9b-e8e6-4b05-8ff3-de9091613063 -- /v1/regis -- POST -- insertOtp is not a function
+27-01-2023	34:52:17 --- 3d2f6e7b-b983-43ab-b5e8-b0eeb419023f -- /v1/regis -- POST -- insertOtp is not a function
+27-01-2023	19:56:17 --- 2b938c31-0daf-4b33-8348-dcbbd8c11486 -- /v1/regis -- POST -- insertOtp is not a function
+27-01-2023	03:00:18 --- 45aa18f7-bcd9-4c08-b2ce-7002afa4c54e -- /v1/regis -- POST -- insertOtp is not a function
+27-01-2023	33:01:18 --- a0edb567-f4d7-4ea0-91e7-495cdb54d081 -- /v1/regis -- POST -- insertOtp is not a function
+28-01-2023	50:25:15 --- d6920ea3-b4d5-4980-88a3-1e025dbc4f1c -- /v1/regis -- POST -- insertOtp is not a function
+28-01-2023	51:26:15 --- 29257bc6-d7f4-4e0d-8aef-bb9a47fd943d -- /v1/regis -- POST -- insertOtp is not a function
+28-01-2023	44:28:15 --- 1d560fae-ef94-4221-876d-f9cb8547c0eb -- /v1/regis -- POST -- insertOtp is not a function
+28-01-2023	11:32:15 --- fcfd33b0-e313-4659-96a3-26097dc0dc77 -- /v1/regis -- GET -- 404 Not Found
+28-01-2023	11:32:15 --- 4ddce89e-c58c-4eb9-8e12-4bb541d4b51a -- /favicon.ico -- GET -- 404 Not Found
+28-01-2023	17:32:15 --- d433e395-b657-46aa-8c69-5a9f24f55061 -- /v1/regis -- POST -- insertOtp is not a function
+28-01-2023	28:33:15 --- 5c6ca277-644b-400e-a2e7-287e54c698c9 -- /v1/regis -- POST -- insertOtp is not a function
+28-01-2023	33:34:15 --- 15f8e8f2-45b9-443e-b03e-2e57d4116016 -- /v1/regis -- POST -- insertOtp is not a function
+30-01-2023	53:52:16 --- 0c98b5ef-7a11-47a8-b651-363d81241f02 -- /v1/ecommerce/product -- POST -- Unexpected token , in JSON at position 150
+30-01-2023	00:54:16 --- 172ff6e3-8bc0-4448-9c18-b89b57230e1b -- /v1/ecommerce/product -- POST -- Unexpected token / in JSON at position 152
+30-01-2023	23:54:16 --- 77d46b31-48bd-432e-8ba9-e7c69f4ef372 -- /v1/ecommerce/product -- POST -- Unexpected token D in JSON at position 150
+30-01-2023	25:54:16 --- 0a6fb4ad-17ac-4903-8e68-35da2593b42a -- /v1/ecommerce/product -- POST -- Unexpected token D in JSON at position 150
+30-01-2023	38:54:16 --- 15ff0659-5f20-47f6-be1d-8e438d1e2aa8 -- /v1/ecommerce/product -- POST -- Unexpected number in JSON at position 152
+30-01-2023	59:54:16 --- 4f546f22-49bf-4065-b72b-920378ce16a3 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 227
+30-01-2023	31:57:16 --- 42a566a0-d37d-40a6-b8eb-ee284d263a6d -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 226
+30-01-2023	32:57:16 --- ba41ec6c-8947-46bf-b64d-fe01e343c139 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 226
+30-01-2023	33:57:16 --- ee21eb48-f3c6-4a0b-af0d-82a2404f62e3 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 226
+30-01-2023	33:57:16 --- 165904f0-e663-49d7-9d34-4975fa68014c -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 226
+30-01-2023	40:57:16 --- 29958a69-d507-466b-9b77-4bf761183d9d -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 227
+30-01-2023	24:58:16 --- e378722e-f1b9-45df-bf27-077fbeb77199 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 226
+30-01-2023	24:58:16 --- c4cc7beb-fa3a-47e0-9f27-dde154b0c94c -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 226
+30-01-2023	25:58:16 --- b2e4e6b1-071e-4c0b-b6a2-167a4192ce9d -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 226
+30-01-2023	25:58:16 --- 7eb9a10c-dbae-4867-aff9-6358a20e33fa -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 226
+30-01-2023	25:58:16 --- ab4f3ee8-d1a9-4997-8c27-f8745333e107 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 226
+30-01-2023	25:58:16 --- dc594241-5a22-423b-ab92-50cd60bbfda4 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 226
+30-01-2023	34:58:16 --- 0957b12a-2577-4a23-9fa8-817a3b6853e9 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	34:58:16 --- 5a230e16-3b07-416b-b472-619cee7cdd1e -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	35:58:16 --- dfb9ee66-cbba-4213-b38b-bed529177c95 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	35:58:16 --- 742a559b-8e21-42f5-8edd-2cf243b77d0f -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	35:58:16 --- fbe217e6-9acf-4c76-8bdb-9255a29db91d -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	35:58:16 --- b8b85ba8-701d-4d15-a409-60690fdde85a -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	36:58:16 --- 1e5dd66a-0ca6-4c8d-b1d7-40696e6ff601 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	36:58:16 --- d8d5a316-fbe2-4028-afe6-4f1709554756 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	36:58:16 --- 60b46620-0908-4c28-bd3f-abf7798738a1 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	16:00:17 --- 2d5c8f30-a82a-4e41-9e68-35a831668d4d -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	22:01:17 --- 174458eb-5164-4b73-9467-0c4c18a45716 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	13:03:17 --- 5107adfb-1b79-4b56-90aa-9d58f56d1d1c -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	28:05:17 --- 2cc09eba-3f8e-4cd1-8003-5faf351a0492 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	55:05:17 --- fc36a93f-c925-4eb5-a06a-18da893596a8 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	25:06:17 --- 9ed919d0-9aab-4bc3-a282-6063547eef19 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	26:06:17 --- 2a75c4ee-2d2e-4fcb-87f5-55599acf8d8d -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	26:06:17 --- b1360664-672e-4cf3-8ce2-447ebe09a378 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	35:06:17 --- 6063a3de-7e2b-47b3-bf9c-bcc347c50dbf -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	36:06:17 --- 8cee485f-4408-4f77-92a3-cf22e1c980c9 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	50:06:17 --- f14601d0-dbab-492b-be24-48671d5daa3f -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	51:06:17 --- aeed10af-8c0b-44f8-a6f0-58b2726598d8 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	14:07:17 --- a3586cac-203f-42a5-afcd-1f3d92d84832 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	38:07:17 --- ad121860-8fa8-4f38-8627-ab556ba0055f -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	39:07:17 --- ff6036d0-b47b-4028-9381-d5eec5bdea9f -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	39:07:17 --- d884f3ea-548f-4db6-8141-7832167040b1 -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	40:07:17 --- 256ba10d-107f-4fa8-98fb-d76e6e6663ae -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	40:07:17 --- 28bce473-f359-4f2c-90d6-2db68920172f -- /v1/ecommerce/product -- POST -- Unexpected token r in JSON at position 222
+30-01-2023	53:07:17 --- 6ed5ac0a-2292-4e30-82ba-d006c9439ea5 -- /v1/ecommerce/product -- POST -- 404 Not Found
+30-01-2023	02:08:17 --- 21e44dad-d661-4665-bc3f-a55f85fd62f5 -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	25:08:17 --- 5c8573ea-ff64-42a1-b79b-7032e6f30fea -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	38:14:17 --- 6b7a74fb-39cb-4e60-8976-ef4cf36f603b -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	15:15:17 --- a632991d-4452-4437-a0ae-5d5c15303a3e -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	26:15:17 --- 8485ee5a-972d-4f7e-be5c-6c5978bc72aa -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	50:15:17 --- 4147919f-63b9-4e0c-8d39-818778366e26 -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	16:16:17 --- 17348e25-8709-4795-94db-bae8af24f6e2 -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	17:16:17 --- 8407c531-ba5f-4816-8029-a13fc55ba5c1 -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	18:16:17 --- cca90e7e-11cd-4657-ac96-51e19b4a7aec -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	19:16:17 --- 8f002d66-9353-44b1-aa19-701dd67fbfff -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	19:16:17 --- eaab9942-8ccc-4603-87ae-8fcf594f896c -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	19:16:17 --- 55f7537a-2d8e-40c8-9bd1-d0421a1a6b83 -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	20:16:17 --- e7e980fd-5614-454d-bd50-1b2b82497ed6 -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	20:16:17 --- 7f4bd860-dd91-4249-88d6-4a47df2bbd9e -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	39:20:17 --- c4ec8697-a6b4-4af2-bb3e-e3f1ce549b7a -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	09:22:17 --- a27ddf9f-3ae4-4044-9a79-4f1c7286aabe -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	10:22:17 --- 24862d89-fbd9-4938-9258-f31fe82bd6f3 -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	10:22:17 --- 8f252731-a98b-4d36-8d3b-e34406c8ea65 -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	10:22:17 --- dfad1b8f-37fd-4498-a419-afc6e7b232fd -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	27:23:17 --- 83edbf66-9472-4fee-92fd-27d3f72d6ae9 -- /v1/ecommerce/product -- PUT -- Cannot read property 'body' of undefined
+30-01-2023	10:25:17 --- 2423e4af-a18a-4378-aa4d-fb75dac59ed0 -- /v1/ecommerce/product -- PUT -- Cannot read property 'create' of undefined
+30-01-2023	51:25:17 --- cce4b7f6-5a62-4485-be45-6641958cbab6 -- /v1/ecommerce/product -- PUT -- Cannot read property 'create' of undefined
+30-01-2023	33:27:17 --- 20ff2cef-7b74-4b97-8a97-fc684686453e -- /v1/ecommerce/product -- PUT -- Cannot read property 'create' of undefined
+30-01-2023	48:28:17 --- c607ff27-bf3f-409e-81e2-05f135a2372f -- /v1/ecommerce/product -- PUT -- Cannot read property 'create' of undefined
+30-01-2023	15:29:17 --- 98a1a851-3470-4e92-91e6-3d625ce5ff98 -- /v1/ecommerce/product -- PUT -- Cannot read property 'create' of undefined
+30-01-2023	46:35:17 --- 179b9a44-347b-4cbf-9a6d-77423da3b2fa -- /v1/ecommerce/inventory -- PUT -- Unexpected token } in JSON at position 98
+30-01-2023	46:36:17 --- 0e04c098-760a-4ee3-9f5c-bef10259d06b -- /v1/ecommerce/inventory -- PUT -- Unexpected token } in JSON at position 98
